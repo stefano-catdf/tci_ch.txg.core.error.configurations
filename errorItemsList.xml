@@ -2,82 +2,82 @@
 <ErrorConfigurationElement>
   <ErrorConfiguration>
     <ErrorCode>BDOC000001</ErrorCode>
-    <ErrorType>Business</ErrorType>
     <ErrorMessage>Request not valid. Error during the validation of the worktag in Workday</ErrorMessage>
+    <ErrorType>Business</ErrorType>
     <CreateCase>false</CreateCase>
-    <CircuitBreaker></CircuitBreaker>
-    <HTTPStatusCode></HTTPStatusCode>
+    <CircuitBreaker>false</CircuitBreaker>
+    <HTTPStatusCode>400</HTTPStatusCode>
   </ErrorConfiguration>
   <ErrorConfiguration>
     <ErrorCode>BDOC000002</ErrorCode>
-    <ErrorType>Business</ErrorType>
     <ErrorMessage>Error raised by Swissbilling during the processing of the BillingDoc</ErrorMessage>
+    <ErrorType>Business</ErrorType>
     <CreateCase>false</CreateCase>
-    <CircuitBreaker></CircuitBreaker>
-    <HTTPStatusCode></HTTPStatusCode>
+    <CircuitBreaker>false</CircuitBreaker>
+    <HTTPStatusCode>400</HTTPStatusCode>
   </ErrorConfiguration>
   <ErrorConfiguration>
     <ErrorCode>BDOC000003</ErrorCode>
-    <ErrorType>System</ErrorType>
     <ErrorMessage>Authentication Error in Workday.</ErrorMessage>
+    <ErrorType>System</ErrorType>
     <CreateCase>false</CreateCase>
-    <CircuitBreaker></CircuitBreaker>
-    <HTTPStatusCode></HTTPStatusCode>
+    <CircuitBreaker>false</CircuitBreaker>
+    <HTTPStatusCode>400</HTTPStatusCode>
   </ErrorConfiguration>
   <ErrorConfiguration>
     <ErrorCode>BDOC000004</ErrorCode>
-    <ErrorType>System</ErrorType>
     <ErrorMessage>Error invoking the validation of the worktag in Workday.</ErrorMessage>
+    <ErrorType>System</ErrorType>
     <CreateCase>false</CreateCase>
     <CircuitBreaker>true</CircuitBreaker>
-    <HTTPStatusCode></HTTPStatusCode>
+    <HTTPStatusCode>400</HTTPStatusCode>
   </ErrorConfiguration>
   <ErrorConfiguration>
     <ErrorCode>BDOC000005</ErrorCode>
-    <ErrorType>System</ErrorType>
     <ErrorMessage>Authentication Error in SwissBilling</ErrorMessage>
+    <ErrorType>System</ErrorType>
     <CreateCase>false</CreateCase>
-    <CircuitBreaker></CircuitBreaker>
-    <HTTPStatusCode></HTTPStatusCode>
+    <CircuitBreaker>false</CircuitBreaker>
+    <HTTPStatusCode>400</HTTPStatusCode>
   </ErrorConfiguration>
   <ErrorConfiguration>
     <ErrorCode>BDOC000006</ErrorCode>
-    <ErrorType>System</ErrorType>
     <ErrorMessage>Technical Error invoking Swissbilling</ErrorMessage>
+    <ErrorType>System</ErrorType>
     <CreateCase>false</CreateCase>
     <CircuitBreaker>true</CircuitBreaker>
-    <HTTPStatusCode></HTTPStatusCode>
+    <HTTPStatusCode>400</HTTPStatusCode>
   </ErrorConfiguration>
   <ErrorConfiguration>
     <ErrorCode>BDOC000007</ErrorCode>
     <ErrorType>Business</ErrorType>
     <ErrorMessage>Validation Error invoking Swissbilling</ErrorMessage>
     <CreateCase>false</CreateCase>
-    <CircuitBreaker></CircuitBreaker>
-    <HTTPStatusCode></HTTPStatusCode>
+    <CircuitBreaker>false</CircuitBreaker>
+    <HTTPStatusCode>400</HTTPStatusCode>
   </ErrorConfiguration>
   <ErrorConfiguration>
     <ErrorCode>BDOC000008</ErrorCode>
-    <ErrorType>Business</ErrorType>
     <ErrorMessage>The size of the document attached is greater than 1 MB, please store the files into SFTP Server and send the reference in the BillingDoc.</ErrorMessage>
+    <ErrorType>Business</ErrorType>
     <CreateCase>false</CreateCase>
-    <CircuitBreaker></CircuitBreaker>
+    <CircuitBreaker>false</CircuitBreaker>
     <HTTPStatusCode>400</HTTPStatusCode>
   </ErrorConfiguration>
   <ErrorConfiguration>
     <ErrorCode>BDOC000009</ErrorCode>
-    <ErrorType>Business</ErrorType>
     <ErrorMessage>Validation Error preparing the request to Swissbilling.</ErrorMessage>
+    <ErrorType>Business</ErrorType>
     <CreateCase>false</CreateCase>
-    <CircuitBreaker></CircuitBreaker>
-    <HTTPStatusCode></HTTPStatusCode>
+    <CircuitBreaker>false</CircuitBreaker>
+    <HTTPStatusCode>400</HTTPStatusCode>
   </ErrorConfiguration>
   <ErrorConfiguration>
-    <ErrorCode>BDOC000010</ErrorCode>
-    <ErrorType>Business</ErrorType>
+    <ErrorCode>BDOC000010</ErrorCode>	
     <ErrorMessage>Validation Error preparing the request to Workday</ErrorMessage>
+    <ErrorType>Business</ErrorType>
     <CreateCase>false</CreateCase>
-    <CircuitBreaker></CircuitBreaker>
-    <HTTPStatusCode></HTTPStatusCode>
+    <CircuitBreaker>false</CircuitBreaker>
+    <HTTPStatusCode>400</HTTPStatusCode>
   </ErrorConfiguration>
 </ErrorConfigurationElement>
