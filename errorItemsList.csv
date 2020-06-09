@@ -1,11 +1,11 @@
 ErrorCode;ErrorType;ErrorMessage;CreateCase;CircuitBreaker;HTTPStatusCode
-BDOC000001;Business;Request not valid. Error during the validation of the worktag in Workday;false;;
-BDOC000002;Business;Error raised by Swissbilling during the processing of the BillingDoc;false;;
-BDOC000003;System;Authentication Error in Workday.;false;;
-BDOC000004;System;Error invoking the validation of the worktag in Workday.;false;true;
-BDOC000005;System;Authentication Error in SwissBilling;false;;
-BDOC000006;System;Technical Error invoking Swissbilling;false;true;
-BDOC000007;Business;Validation Error invoking Swissbilling;false;;
-BDOC000008;Business;The size of the document attached is greater than 1 MB, please store the files into SFTP Server and send the reference in the BillingDoc.;false;;400
-BDOC000009;Business;Validation Error preparing the request to Swissbilling.;false;;
-BDOC000010;Business;Validation Error preparing the request to Workday;false;;
+BDOC000001;Business;Request not valid. Error during the validation of the worktag in Workday;false;false;400
+BDOC000002;Business;Error raised by Swissbilling during the processing of the BillingDoc;false;false;400
+BDOC000003;System;Authentication Error in Workday.;false;false;400
+BDOC000004;System;Error invoking the validation of the worktag in Workday.;false;true;400
+BDOC000005;System;Authentication Error in SwissBilling;false;false;400
+BDOC000006;System;Technical Error invoking Swissbilling;false;true;400
+BDOC000007;Business;Validation Error invoking Swissbilling;false;false;400
+BDOC000008;Business;The size of the document attached is greater than 1 MB, please store the files into SFTP Server and send the reference in the BillingDoc.;false;false;400
+BDOC000009;Business;Validation Error preparing the request to Swissbilling.;false;false;400
+BDOC000010;Business;Validation Error preparing the request to Workday;false;false;400
