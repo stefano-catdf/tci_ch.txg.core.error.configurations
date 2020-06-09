@@ -1,83 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ErrorConfigurationElement>
-  <ErrorConfiguration>
-    <ErrorCode>BDOC000001</ErrorCode>
-    <ErrorMessage>Request not valid. Error during the validation of the worktag in Workday</ErrorMessage>
-    <ErrorType>Business</ErrorType>
-    <CreateCase>false</CreateCase>
-    <CircuitBreaker>false</CircuitBreaker>
-    <HTTPStatusCode>400</HTTPStatusCode>
-  </ErrorConfiguration>
-  <ErrorConfiguration>
-    <ErrorCode>BDOC000002</ErrorCode>
-    <ErrorMessage>Error raised by Swissbilling during the processing of the BillingDoc</ErrorMessage>
-    <ErrorType>Business</ErrorType>
-    <CreateCase>false</CreateCase>
-    <CircuitBreaker>false</CircuitBreaker>
-    <HTTPStatusCode>400</HTTPStatusCode>
-  </ErrorConfiguration>
-  <ErrorConfiguration>
-    <ErrorCode>BDOC000003</ErrorCode>
-    <ErrorMessage>Authentication Error in Workday.</ErrorMessage>
-    <ErrorType>System</ErrorType>
-    <CreateCase>false</CreateCase>
-    <CircuitBreaker>false</CircuitBreaker>
-    <HTTPStatusCode>400</HTTPStatusCode>
-  </ErrorConfiguration>
-  <ErrorConfiguration>
-    <ErrorCode>BDOC000004</ErrorCode>
-    <ErrorMessage>Error invoking the validation of the worktag in Workday.</ErrorMessage>
-    <ErrorType>System</ErrorType>
-    <CreateCase>false</CreateCase>
-    <CircuitBreaker>true</CircuitBreaker>
-    <HTTPStatusCode>400</HTTPStatusCode>
-  </ErrorConfiguration>
-  <ErrorConfiguration>
-    <ErrorCode>BDOC000005</ErrorCode>
-    <ErrorMessage>Authentication Error in SwissBilling</ErrorMessage>
-    <ErrorType>System</ErrorType>
-    <CreateCase>false</CreateCase>
-    <CircuitBreaker>false</CircuitBreaker>
-    <HTTPStatusCode>400</HTTPStatusCode>
-  </ErrorConfiguration>
-  <ErrorConfiguration>
-    <ErrorCode>BDOC000006</ErrorCode>
-    <ErrorMessage>Technical Error invoking Swissbilling</ErrorMessage>
-    <ErrorType>System</ErrorType>
-    <CreateCase>false</CreateCase>
-    <CircuitBreaker>true</CircuitBreaker>
-    <HTTPStatusCode>400</HTTPStatusCode>
-  </ErrorConfiguration>
-  <ErrorConfiguration>
-    <ErrorCode>BDOC000007</ErrorCode>
-    <ErrorType>Business</ErrorType>
-    <ErrorMessage>Validation Error invoking Swissbilling</ErrorMessage>
-    <CreateCase>false</CreateCase>
-    <CircuitBreaker>false</CircuitBreaker>
-    <HTTPStatusCode>400</HTTPStatusCode>
-  </ErrorConfiguration>
-  <ErrorConfiguration>
-    <ErrorCode>BDOC000008</ErrorCode>
-    <ErrorMessage>The size of the document attached is greater than 1 MB, please store the files into SFTP Server and send the reference in the BillingDoc.</ErrorMessage>
-    <ErrorType>Business</ErrorType>
-    <CreateCase>false</CreateCase>
-    <CircuitBreaker>false</CircuitBreaker>
-    <HTTPStatusCode>400</HTTPStatusCode>
-  </ErrorConfiguration>
-  <ErrorConfiguration>
-    <ErrorCode>BDOC000009</ErrorCode>
-    <ErrorMessage>Validation Error preparing the request to Swissbilling.</ErrorMessage>
-    <ErrorType>Business</ErrorType>
-    <CreateCase>false</CreateCase>
-    <CircuitBreaker>false</CircuitBreaker>
-    <HTTPStatusCode>400</HTTPStatusCode>
-  </ErrorConfiguration>
-  <ErrorConfiguration>
-    <ErrorCode>BDOC000010</ErrorCode>	
-    <ErrorMessage>Validation Error preparing the request to Workday</ErrorMessage>
-    <ErrorType>Business</ErrorType>
-    <CreateCase>false</CreateCase>
-    <CircuitBreaker>false</CircuitBreaker>
-    <HTTPStatusCode>400</HTTPStatusCode>
-  </ErrorConfiguration>
-</ErrorConfigurationElement>
+<tns:ErrorConfigurationElement xmlns:tns="http://ch/txg/core/lehf/common/xsd/ErrorConfiguration/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ch/txg/core/lehf/common/xsd/ErrorConfiguration/ ErrorConfiguration.xsd ">
+	<tns:ErrorConfiguration>
+		<tns:ErrorCode>BDOC000001</tns:ErrorCode>
+		<tns:ErrorMessage>Request not valid. Error during the validation of the worktag in Workday</tns:ErrorMessage>
+		<tns:ErrorType>Business</tns:ErrorType>
+		<tns:CreateCase>false</tns:CreateCase>
+		<tns:CircuitBreaker>false</tns:CircuitBreaker>
+		<tns:HTTPStatusCode>400</tns:HTTPStatusCode>
+	</tns:ErrorConfiguration>
+	<tns:ErrorConfiguration>
+		<tns:ErrorCode>BDOC000002</tns:ErrorCode>
+		<tns:ErrorMessage>Error raised by Swissbilling during the processing of the BillingDoc</tns:ErrorMessage>
+		<tns:ErrorType>Business</tns:ErrorType>
+		<tns:CreateCase>false</tns:CreateCase>
+		<tns:CircuitBreaker>false</tns:CircuitBreaker>
+		<tns:HTTPStatusCode>400</tns:HTTPStatusCode>
+	</tns:ErrorConfiguration>
+	<tns:ErrorConfiguration>
+		<tns:ErrorCode>BDOC000003</tns:ErrorCode>
+		<tns:ErrorMessage>Authentication Error in Workday.</tns:ErrorMessage>
+		<tns:ErrorType>System</tns:ErrorType>
+		<tns:CreateCase>false</tns:CreateCase>
+		<tns:CircuitBreaker>false</tns:CircuitBreaker>
+		<tns:HTTPStatusCode>400</tns:HTTPStatusCode>
+	</tns:ErrorConfiguration>
+	<tns:ErrorConfiguration>
+		<tns:ErrorCode>BDOC000004</tns:ErrorCode>
+		<tns:ErrorMessage>Error invoking the validation of the worktag in Workday.</tns:ErrorMessage>
+		<tns:ErrorType>System</tns:ErrorType>
+		<tns:CreateCase>false</tns:CreateCase>
+		<tns:CircuitBreaker>true</tns:CircuitBreaker>
+		<tns:HTTPStatusCode>400</tns:HTTPStatusCode>
+	</tns:ErrorConfiguration>
+	<tns:ErrorConfiguration>
+		<tns:ErrorCode>BDOC000005</tns:ErrorCode>
+		<tns:ErrorMessage>Authentication Error in SwissBilling</tns:ErrorMessage>
+		<tns:ErrorType>System</tns:ErrorType>
+		<tns:CreateCase>false</tns:CreateCase>
+		<tns:CircuitBreaker>false</tns:CircuitBreaker>
+		<tns:HTTPStatusCode>400</tns:HTTPStatusCode>
+	</tns:ErrorConfiguration>
+	<tns:ErrorConfiguration>
+		<tns:ErrorCode>BDOC000006</tns:ErrorCode>
+		<tns:ErrorMessage>Technical Error invoking Swissbilling</tns:ErrorMessage>
+		<tns:ErrorType>System</tns:ErrorType>
+		<tns:CreateCase>false</tns:CreateCase>
+		<tns:CircuitBreaker>true</tns:CircuitBreaker>
+		<tns:HTTPStatusCode>400</tns:HTTPStatusCode>
+	</tns:ErrorConfiguration>
+	<tns:ErrorConfiguration>
+		<tns:ErrorCode>BDOC000007</tns:ErrorCode>
+		<tns:ErrorMessage>Validation Error invoking Swissbilling</tns:ErrorMessage>
+		<tns:ErrorType>Business</tns:ErrorType>
+		<tns:CreateCase>false</tns:CreateCase>
+		<tns:CircuitBreaker>false</tns:CircuitBreaker>
+		<tns:HTTPStatusCode>400</tns:HTTPStatusCode>
+	</tns:ErrorConfiguration>
+	<tns:ErrorConfiguration>
+		<tns:ErrorCode>BDOC000008</tns:ErrorCode>
+		<tns:ErrorMessage>The size of the document attached is greater than 1 MB, please store the files into SFTP Server and send the reference in the BillingDoc.</tns:ErrorMessage>
+		<tns:ErrorType>Business</tns:ErrorType>
+		<tns:CreateCase>false</tns:CreateCase>
+		<tns:CircuitBreaker>false</tns:CircuitBreaker>
+		<tns:HTTPStatusCode>400</tns:HTTPStatusCode>
+	</tns:ErrorConfiguration>
+	<tns:ErrorConfiguration>
+		<tns:ErrorCode>BDOC000009</tns:ErrorCode>
+		<tns:ErrorMessage>Validation Error preparing the request to Swissbilling.</tns:ErrorMessage>
+		<tns:ErrorType>Business</tns:ErrorType>
+		<tns:CreateCase>false</tns:CreateCase>
+		<tns:CircuitBreaker>false</tns:CircuitBreaker>
+		<tns:HTTPStatusCode>400</tns:HTTPStatusCode>
+	</tns:ErrorConfiguration>
+	<tns:ErrorConfiguration>
+		<tns:ErrorCode>BDOC000010</tns:ErrorCode>
+		<tns:ErrorMessage>Validation Error preparing the request to Workday</tns:ErrorMessage>
+		<tns:ErrorType>Business</tns:ErrorType>
+		<tns:CreateCase>false</tns:CreateCase>
+		<tns:CircuitBreaker>false</tns:CircuitBreaker>
+		<tns:HTTPStatusCode>400</tns:HTTPStatusCode>
+	</tns:ErrorConfiguration>
+</tns:ErrorConfigurationElement>
