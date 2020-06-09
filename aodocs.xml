@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:ErrorConfigurationElement xmlns:tns="http://ch/txg/core/lehf/common/xsd/ErrorConfiguration/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ch/txg/core/lehf/common/xsd/ErrorConfiguration/ ErrorConfiguration.xsd ">
+	<tns:ErrorConfiguration>
+		<tns:ErrorCode>AOD000001</tns:ErrorCode>
+		<tns:ErrorMessage>Request not valid. Error during the validation of the worktag in Workday</tns:ErrorMessage>
+		<tns:ErrorType>Business</tns:ErrorType>
+		<tns:CreateCase>false</tns:CreateCase>
+		<tns:CircuitBreaker>false</tns:CircuitBreaker>
+		<tns:HTTPStatusCode>400</tns:HTTPStatusCode>
+	</tns:ErrorConfiguration>
+	<tns:ErrorConfiguration>
+		<tns:ErrorCode>AOD000002</tns:ErrorCode>
+		<tns:ErrorMessage>Error raised by Swissbilling during the processing of the BillingDoc</tns:ErrorMessage>
+		<tns:ErrorType>Business</tns:ErrorType>
+		<tns:CreateCase>false</tns:CreateCase>
+		<tns:CircuitBreaker>false</tns:CircuitBreaker>
+		<tns:HTTPStatusCode>400</tns:HTTPStatusCode>
+	</tns:ErrorConfiguration>
+	<tns:ErrorConfiguration>
+		<tns:ErrorCode>AOD000003</tns:ErrorCode>
+		<tns:ErrorMessage>Authentication Error in Workday.</tns:ErrorMessage>
+		<tns:ErrorType>System</tns:ErrorType>
+		<tns:CreateCase>false</tns:CreateCase>
+		<tns:CircuitBreaker>false</tns:CircuitBreaker>
+		<tns:HTTPStatusCode>400</tns:HTTPStatusCode>
+	</tns:ErrorConfiguration>
+	<tns:ErrorConfiguration>
+		<tns:ErrorCode>AOD000004</tns:ErrorCode>
+		<tns:ErrorMessage>Error invoking the validation of the worktag in Workday.</tns:ErrorMessage>
+		<tns:ErrorType>System</tns:ErrorType>
+		<tns:CreateCase>false</tns:CreateCase>
+		<tns:CircuitBreaker>true</tns:CircuitBreaker>
+		<tns:HTTPStatusCode>400</tns:HTTPStatusCode>
+	</tns:ErrorConfiguration>
+	<tns:ErrorConfiguration>
+		<tns:ErrorCode>AOD000005</tns:ErrorCode>
+		<tns:ErrorMessage>Authentication Error in SwissBilling</tns:ErrorMessage>
+		<tns:ErrorType>System</tns:ErrorType>
+		<tns:CreateCase>false</tns:CreateCase>
+		<tns:CircuitBreaker>false</tns:CircuitBreaker>
+		<tns:HTTPStatusCode>400</tns:HTTPStatusCode>
+	</tns:ErrorConfiguration>
+	<tns:ErrorConfiguration>
+		<tns:ErrorCode>AOD000006</tns:ErrorCode>
+		<tns:ErrorMessage>Technical Error invoking Swissbilling</tns:ErrorMessage>
+		<tns:ErrorType>System</tns:ErrorType>
+		<tns:CreateCase>false</tns:CreateCase>
+		<tns:CircuitBreaker>true</tns:CircuitBreaker>
+		<tns:HTTPStatusCode>400</tns:HTTPStatusCode>
+	</tns:ErrorConfiguration>
+	<tns:ErrorConfiguration>
+		<tns:ErrorCode>AOD000007</tns:ErrorCode>
+		<tns:ErrorMessage>Validation Error invoking Swissbilling</tns:ErrorMessage>
+		<tns:ErrorType>Business</tns:ErrorType>
+		<tns:CreateCase>false</tns:CreateCase>
+		<tns:CircuitBreaker>false</tns:CircuitBreaker>
+		<tns:HTTPStatusCode>400</tns:HTTPStatusCode>
+	</tns:ErrorConfiguration>
+	<tns:ErrorConfiguration>
+		<tns:ErrorCode>AOD000008</tns:ErrorCode>
+		<tns:ErrorMessage>The size of the document attached is greater than 1 MB, please store the files into SFTP Server and send the reference in the BillingDoc.</tns:ErrorMessage>
+		<tns:ErrorType>Business</tns:ErrorType>
+		<tns:CreateCase>false</tns:CreateCase>
+		<tns:CircuitBreaker>false</tns:CircuitBreaker>
+		<tns:HTTPStatusCode>400</tns:HTTPStatusCode>
+	</tns:ErrorConfiguration>
+	<tns:ErrorConfiguration>
+		<tns:ErrorCode>AOD000009</tns:ErrorCode>
+		<tns:ErrorMessage>Validation Error preparing the request to Swissbilling.</tns:ErrorMessage>
+		<tns:ErrorType>Business</tns:ErrorType>
+		<tns:CreateCase>false</tns:CreateCase>
+		<tns:CircuitBreaker>false</tns:CircuitBreaker>
+		<tns:HTTPStatusCode>400</tns:HTTPStatusCode>
+	</tns:ErrorConfiguration>
+	<tns:ErrorConfiguration>
+		<tns:ErrorCode>AOD000010</tns:ErrorCode>
+		<tns:ErrorMessage>Validation Error preparing the request to Workday</tns:ErrorMessage>
+		<tns:ErrorType>Business</tns:ErrorType>
+		<tns:CreateCase>false</tns:CreateCase>
+		<tns:CircuitBreaker>false</tns:CircuitBreaker>
+		<tns:HTTPStatusCode>400</tns:HTTPStatusCode>
+	</tns:ErrorConfiguration>
+</tns:ErrorConfigurationElement>
