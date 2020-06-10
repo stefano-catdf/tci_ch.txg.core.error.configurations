@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tns:ErrorConfigurationElement xmlns:tns="http://ch/txg/core/lehf/common/xsd/ErrorConfiguration/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ch/txg/core/lehf/common/xsd/ErrorConfiguration/ ErrorConfiguration.xsd ">
+<tns:ErrorConfigurations xmlns:tns="http://ch/txg/core/lehf/common/xsd/ErrorConfiguration/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ch/txg/core/lehf/common/xsd/ErrorConfiguration/ ErrorConfigurations.xsd ">
 	<tns:ErrorConfiguration>
 		<tns:ErrorCode>AOD000001</tns:ErrorCode>
 		<tns:ErrorMessage>Request not valid. Error during the validation of the worktag in Workday</tns:ErrorMessage>
@@ -80,4 +80,4 @@
 		<tns:CircuitBreaker>false</tns:CircuitBreaker>
 		<tns:HTTPStatusCode>400</tns:HTTPStatusCode>
 	</tns:ErrorConfiguration>
-</tns:ErrorConfigurationElement>
+</tns:ErrorConfigurations>
